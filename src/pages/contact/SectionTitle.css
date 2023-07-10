@@ -1,0 +1,26 @@
+.section-title
+{
+    text-align: center;
+}
+
+h3
+{
+  font-family: 'Montserrat Bold';
+  font-size: 4rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  color:var(--deep-dark);
+}
+
+@media only screen and (max-width: 768px) 
+{ 
+  .sectionTitleStyle
+  {
+      text-align: center;
+  }
+  
+  h2 
+  {
+    font-size: 2.6rem;
+  }
+}

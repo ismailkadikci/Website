@@ -1,0 +1,32 @@
+:root 
+{
+    --white: #ffffff;
+    --deep-dark: #1E1E1E;
+}
+
+.itemStyles
+{
+    padding: 2rem;
+    border:2px solid var(--deep-dark);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;  
+}
+
+.icon 
+{
+    color: var(--white);
+    background-color: var(--gray-2);
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+svg 
+{
+    width: 3.5rem;
+}
