@@ -2,10 +2,10 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-import image9 from './images/img-7.jpg';
-import image2 from './images/img-2.jpg';
-import image3 from './images/img-3.jpg';
-import image8 from './images/img-8.jpg';
+import image9 from '../../images/img-7.jpg';
+import image2 from '../../images/img-2.jpg';
+import image3 from '../../images/img-3.jpg';
+import image8 from '../../images/img-8.jpg';
 
 function Cards() 
 {
@@ -17,16 +17,15 @@ function Cards()
           <ul className='cards__items'>
             <CardItem
               src={image9}
-              // src='images/img-9.jpg'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
               label='Adventure'
-              path='/projects'
+              path='/website/projects'
             />
             <CardItem
               src={image2}
               text='Travel through the Islands of Bali in a Private Cruise'
               label='Luxury'
-              path='/projects'
+              path='/website/projects'
             />
           </ul>
           <ul className='cards__items'>
@@ -34,13 +33,13 @@ function Cards()
               src={image3}
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
               label='Mystery'
-              path='/projects'
+              path='/website/projects'
             />
             <CardItem
               src={image8}
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/contact'
+              path='/website/contact'
             />
           </ul>
         </div>

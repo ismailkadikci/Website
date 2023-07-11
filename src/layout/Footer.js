@@ -64,7 +64,7 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              3M DİNAMİK
               <i className='fab fa-typo3' />
             </Link>
           </div>
@@ -102,14 +102,15 @@ function Footer() {
             >
               <i className='fab fa-twitter' />
             </Link>
-            <Link
-              className='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i className='fab fa-linkedin' />
-            </Link>
+            <a
+            className='social-icon-link twitter'
+            href='https://www.youtube.com/@briandesign'
+            target='_blank'
+            rel='noopener noreferrer'
+            aria-label='YouTube'
+          >
+            <i className='fab fa-youtube' />
+          </a>
           </div>
         </div>
       </section>
