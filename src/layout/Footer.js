@@ -14,60 +14,56 @@ function Footer() {
             </Link>
           </div>
         <div className='social-media-wrap'>
-          {/* <small className='website-rights'>TRVL © 2020</small> */}
           <div className='social-icons'>
-            <div 
+          <a 
               className='social-icon-link'
               href='https://www.youtube.com/@briandesign'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='Facebook'
-              >
-            <i className='fab fa-facebook-f' />
+            >
+              <i className='fab fa-facebook-f' />
+            </a>
 
-              </div>
+            <a 
+              className='social-icon-link'
+              href='https://www.youtube.com/@briandesign'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='YouTube'
+            >
+              <i className='fab fa-youtube' />
+            </a>
 
-            {/* <Link
-              className='social-icon-link facebook'
-              to='/'
+            <a 
+              className='social-icon-link'
+              href='https://www.youtube.com/@briandesign'
               target='_blank'
-              aria-label='Facebook'
-            > */}
-              {/* <i className='fab fa-facebook-f' /> */}
-            {/* </Link> */}
-            <Link
-              className='social-icon-link instagram'
-              to='/'
-              target='_blank'
+              rel='noopener noreferrer'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <Link
-              className='social-icon-link youtube'
-              to='/'
+            </a>
+
+            <a 
+              className='social-icon-link'
+              href='https://www.youtube.com/@briandesign'
               target='_blank'
-              aria-label='Youtube'
+              rel='noopener noreferrer'
+              aria-label='Linkedin'
             >
-              <i className='fab fa-youtube' />
-            </Link>
-            <Link
-              className='social-icon-link twitter'
-              to='/'
+              <i className='fab fa-linkedin' />
+            </a>
+
+            <a 
+              className='social-icon-link'
+              href='https://www.youtube.com/@briandesign'
               target='_blank'
+              rel='noopener noreferrer'
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
-            </Link>
-            <a
-            className='social-icon-link twitter'
-            href='https://www.youtube.com/@briandesign'
-            target='_blank'
-            rel='noopener noreferrer'
-            aria-label='YouTube'
-          >
-            <i className='fab fa-youtube' />
-          </a>
+            </a>
           </div>
         </div>
       </section>
