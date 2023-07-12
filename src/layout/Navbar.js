@@ -33,7 +33,7 @@ function Navbar(){
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/website/' className='navbar-logo' onClick={closeMobileMenu}>
-                        3M Dinamik <i className='fab fa-typo3'/>                        
+                        3MDinamik <i className='fab fa-typo3'/>                        
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
