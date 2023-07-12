@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import { MdEmail, MdLocalPhone } from 'react-icons/md';
+import { MdEmail, MdLocalPhone, MdPlace} from 'react-icons/md';
 
 function Footer() {
   return (
@@ -16,14 +16,25 @@ function Footer() {
         <div className='social-media-wrap'>
           {/* <small className='website-rights'>TRVL © 2020</small> */}
           <div className='social-icons'>
-            <Link
+            <div 
+              className='social-icon-link'
+              href='https://www.youtube.com/@briandesign'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Facebook'
+              >
+            <i className='fab fa-facebook-f' />
+
+              </div>
+
+            {/* <Link
               className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
-            >
-              <i className='fab fa-facebook-f' />
-            </Link>
+            > */}
+              {/* <i className='fab fa-facebook-f' /> */}
+            {/* </Link> */}
             <Link
               className='social-icon-link instagram'
               to='/'
@@ -61,22 +72,22 @@ function Footer() {
         </div>
       </section>
 
-      {/* <section className='footer-contact'>
+      <section className='footer-contact'>
         <div className='contact-items'>
-          <div className='contact-item-phone'>
-            <div className='iconn'> {MdEmail}</div>
-            <div className='information'>   +90 541 299 2698</div>
+        <div className='contact-item-phone'>
+            <div className='contact-icon'><MdLocalPhone /></div>
+            <div className='information'>+90 541 299 2698</div>
           </div>
-          <div className='contact-item-adress'>
-          05412992698
-
+          <div className='contact-item-address'>
+            <div className='contact-icon'><MdPlace /></div>
+            <div className='information'>Özevler Mahallesi 944. Sokak No:22/19 Yenimahalle/Ankara</div>
           </div>
           <div className='contact-item-email'>
-          05412992698
-
+            <div className='contact-icon'><MdEmail /></div>
+            <div className='information'>ismailkadikci@gmail.com</div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }

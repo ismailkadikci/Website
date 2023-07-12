@@ -23,28 +23,44 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* flex-direction: row; */
   height: 100px;
   align-items: center;
 }
 
 .contact-item-phone
 {
-  /* padding: 2rem; */
   display: flex;
+  gap: 1rem;
+  font-size: 1rem;
   align-items: center;
   color: white;  
 }
 
-.iconn
+.contact-item-address
 {
-  color: red;
-  font-size: large;
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  color: white;  
+}
+
+.contact-item-email
+{
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  align-items: center;
+  color: white;  
+}
+
+.contact-icon
+{
+  color: white;
+  font-size: 1.1rem;
   background-color: none;
-  padding: 1.3rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   border-radius: 50%;
 }
 
