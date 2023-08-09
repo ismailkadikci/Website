@@ -16,6 +16,7 @@ function ImageSliderContainer()
 
     return(
         <div className="imageslidercontainer">
+            <h1>Siz hayal edin, biz yapalım...</h1>
             <ImageSlider slides = {slides}/>
         </div>
     );
