@@ -1,5 +1,6 @@
 .cards 
 {
+  width: 100%;
     padding: 4rem;
     background: #fff;
 }
@@ -14,8 +15,9 @@ h1
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  /* max-width: 1120px; */
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
   
@@ -87,7 +89,7 @@ h1
   right: 0;
   bottom: 0;
   left: 0;
-  display: block;
+  /* display: block; */
   width: 100%;
   max-width: 100%;
   height: 100%;
@@ -117,7 +119,7 @@ h1
 {
   .content__blog__container 
   {
-    width: 84%;
+    width: 100%;
   }
 }
   
